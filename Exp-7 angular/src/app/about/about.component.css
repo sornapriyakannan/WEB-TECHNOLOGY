@@ -1,0 +1,33 @@
+.about {
+    text-align: center;
+    padding: 20px;
+    margin: auto;
+    max-width: 800px;
+  }
+  
+  .about h1 {
+    color: #FFC107;
+    margin-bottom: 20px;
+  }
+  
+  .about h2 {
+    margin-top: 20px;
+    margin-bottom: 10px;
+    font-size: 24px;
+  }
+  
+  .about p {
+    font-size: 18px;
+    margin: 10px 0;
+  }
+  
+  .about ul {
+    list-style-type: disc;
+    padding-left: 20px;
+    text-align: left;
+  }
+  
+  .about ul li {
+    margin-bottom: 10px;
+  }
+  

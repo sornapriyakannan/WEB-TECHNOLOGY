@@ -1,0 +1,104 @@
+<!doctype html>
+<html>
+	<head>
+		<title>MY PROFILE</title>
+		<style>
+			h4{background-color:orange;}
+		</style>
+		<link rel="stylesheet" href="mystyle.css">
+	</head>
+	<body style=background-color:lightgreen;">
+		<h1 style="color:Blue"><i><b><center>MY RESUME</center></b></i></h1>
+		<img src="profile.JPG" width="100px" height="100px">
+	
+	<div id="div1">
+		<p><b>NAME:Sorna Priya.K<br>Btech Information Technology<br>@Kongu Engineering College</b></p>
+		
+	</div>
+		
+	<p>
+		<h4 style="background-color:violet;"><b>OBJECTIVE:</b></h4>
+		<p style="font-size:18px;">Seeking for an opportunity to work in a competitive environment and <br>to enhance the growth of the organization by applying all<br> my skills and ideas and to continue exploring new technologies.</p>
+		
+	</p>
+	<p>
+		<h4><b>ACADEMIC CREDENTIALS:</b></h4>
+		<table border='1'>
+			<div id="div2">
+			<tr>
+				
+				<th>COURSE</th>
+				<th>NAME OF THE INSTITUTION</th>
+				<th>YEAR OF PASSING</th>
+				<th>PERCENTAGE</th>
+			</tr>
+			</div>
+			<tr>
+				<td>UG</td>
+				<td>KEC</td>
+				<td>2026</td>
+				<td>8.50</td>
+			</tr>
+			<tr>
+				<td>HSC</td>
+				<td>KKN</td>
+				<td>2022</td>
+				<td>96</td>
+			</tr>
+			<tr>
+				<td>SSLC</td>
+				<td>KKN</td>
+				<td>2020</td>
+				<td>85</td>
+			</tr>
+		</table>
+	</p>
+	
+	
+	
+		<h4 style="background-color:violet;"><b>SOFT SKILLS:</b></h4>
+		<div id="div3" class="class2">
+		<ul>
+			<li>Time Management</li>
+			<li>Creativity</li>
+			<li>Leadership</li>
+		</ul>
+		</div>
+		<h4 style="background-color:violet;"><b>AREA OF INTEREST:</b></h4>
+		<div id="div4" class="class2">
+		<ol>
+			<li>Data Science</li>
+			<li>App Development</li>
+			<li>Web Development</li>
+		</ol>
+		</div>
+		<h4 style="background-color:violet;"><b>KEY SKILLS:</b></h4>
+		<div id="div5" class="class2">
+		<ul style="list-style-type:square;">
+			<li>C,C++,JAVA,Python</li>
+			<li>HTML,CSS,Javascript,Flutter</li>
+
+		</ul>
+		</div>
+	
+	
+	
+		<h4 style="background-color:violet;"><strong>CO-CURRICULAR ACTIVITIES</strong></h4>
+	<div id="div6">
+		<ul style="list-style-type:star;">
+			<li>Smart shoe paper presented in <span style="color:red;"> KONGU ENGINERING COLLEGE</span></li>
+			<li>Blue Brain technology paper presented in<span style="color:red;"> BANNARI AMMAN ENGINEERING COLLEGE</span></li>
+			<li>TourEaze paper presented in<span style="color:red;"> COIMBATORE INSTITUTE OF TECHNOLOGY</span></li>
+		</ul>
+	</div>
+		
+	
+
+			
+			
+		
+			
+	
+	</body>
+</html>
+		

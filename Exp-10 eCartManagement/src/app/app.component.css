@@ -1,0 +1,57 @@
+/* Styles for header */
+.header {
+    height: 70px;
+    width: 100%;
+    background-color: black;
+    text-align: center;
+    padding: 20px;
+    font-family: 'Forte', sans-serif;
+    color: white;
+    font-size: 50px;
+}
+
+/* Styles for navbar */
+/* styles.css */
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color:green;
+  padding: 10px 15px;
+}
+
+.nav-left {
+  display: flex;
+}
+
+.nav-button {
+  color: #fff;
+  text-decoration: none;
+  margin-right: 15px;
+  padding: 5px 10px;
+  border-radius: 5px;
+  transition: background-color 0.3s ease;
+}
+
+.nav-button:hover {
+  background-color:black;
+}
+
+.nav-right {
+  display: flex;
+  align-items: center;
+}
+
+
+
+.profile-icon img {
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+  cursor: pointer;
+  transition: transform 0.3s ease;
+}
+
+.profile-icon img:hover {
+  transform: scale(1.1);
+}
