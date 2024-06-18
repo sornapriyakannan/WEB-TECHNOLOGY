@@ -1,0 +1,123 @@
+
+.div1{
+   margin-left: 100px;
+   margin-top: 300px;
+   float: left;
+   height: 400PX;
+   width: 600px;
+}
+
+
+.image-container {
+  margin-top: 50;
+  margin-left: 800px;
+  width: 900; /* Set the width of the container */
+  height: 900; /* Set the height of the container */
+  overflow: hidden; /* Hide any overflow */
+}
+.image-container img {
+  width: 100%; /* Make the image fill the container horizontally */
+  height: auto; /* Maintain aspect ratio */
+  display: block; /* Make sure it's a block element */
+}
+
+
+
+
+.main-content {
+  padding: 3rem 0;
+}
+
+.image-container img {
+  max-width: 100%;
+  height: auto;
+  border-radius: 15px; /* Slightly rounded corners for the image */
+}
+
+.features-section {
+
+  height:750px;
+  border-top: 1px solid #dee2e6; /* Light top border to separate sections */
+  border-bottom: 1px solid #dee2e6; /* Light bottom border for clean section division */
+}
+
+.features-section .col-md-4 {
+  padding: 1rem;
+}
+
+.features-section i {
+  color: #007bff; /* Bootstrap's primary color */
+}
+
+.footer {
+  background-color: #000000; /* Dark background color for the footer */
+  color: #f8f9fa; /* Light text color */
+  padding-top: 2rem;
+}
+
+.footer h5 {
+  font-size: 1.25rem;
+  margin-bottom: 1rem;
+}
+
+.footer ul {
+  list-style: none;
+  padding: 0;
+}
+
+.footer ul li {
+  margin-bottom: 0.5rem;
+}
+
+.footer ul li a {
+  color: #f8f9fa; /* Light text for links */
+  text-decoration: none;
+}
+
+.footer ul li a:hover {
+  text-decoration: underline; /* Underline links on hover */
+}
+
+.footer .social-icons i {
+  font-size: 1.5rem;
+  margin: 0 0.5rem;
+  color: #f8f9fa; /* Ensure social icons are light colored */
+}
+
+.footer hr {
+  border-top: 1px solid #6c757d; /* Light gray for the separator line */
+}
+
+.footer p {
+  margin-top: 1rem;
+  font-size: 0.875rem; /* Slightly smaller text for the footer */
+}
+
+.btn-outline-primary:hover,
+.btn-outline-success:hover {
+  color: #fff;
+  background-color: #007bff; /* Primary color for buttons on hover */
+  border-color: #007bff; /* Match border to background color on hover */
+}
+
+/* Responsive Adjustments */
+@media (max-width: 767.98px) {
+  .features-section .col-md-4 {
+      margin-bottom: 1.5rem; /* Add spacing between features on smaller screens */
+  }
+}
+
+@media (max-width: 575.98px) {
+  .btn-toolbar {
+      flex-direction: column;
+  }
+
+  .btn-group {
+      width: 100%;
+      margin-bottom: 0.5rem;
+  }
+
+  .btn-group .btn {
+      width: 100%;
+  }
+}

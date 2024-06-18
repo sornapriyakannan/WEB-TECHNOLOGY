@@ -1,0 +1,57 @@
+.order-tracking {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 80%;
+    margin: 0 auto;
+    margin-top: 50px; /* Adjust as needed */
+  }
+  
+  .step {
+    position: relative;
+    flex: 4 ;
+    text-align: center;
+  }
+  
+  .step:not(:last-child):after {
+    content: '';
+    position: absolute;
+    top: 50%;
+    left: 100%;
+    transform: translateY(-50%);
+    width: 80px; /* Adjust as needed */
+    height: 2px;
+    background-color: #ccc;
+  }
+  
+  .step.active {
+    color: #4CAF50;
+  }
+  
+  .step.active:before {
+    background-color: #4CAF50;
+    color: white;
+  }
+  
+  .step:before {
+    content: '\2022'; /* Bullet point character */
+    position: absolute;
+    top: 50%;
+    left: -10px;
+    transform: translateY(-50%);
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    background-color: #ccc;
+    color: transparent;
+    text-align: center;
+    line-height: 20px;
+    font-size: 14px;
+  }
+  
+  .step.active:before {
+    background-color: #4CAF50;
+    color: white;
+  }
+  
+  
